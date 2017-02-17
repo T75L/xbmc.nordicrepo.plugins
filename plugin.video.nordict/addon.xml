@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.nordict" name="-[COLOR red]Nor[/COLOR][COLOR white]dic[/COLOR][COLOR blue]~TV[/COLOR]-" version="1.0" provider-name="[B]IPTV[/B]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>[B]IPTV [/B][COLOR green]Nordic[/COLOR]</summary>
+    <description>[COLOR yellowgreen] Livestreams for [/COLOR]-[COLOR red]NO[/COLOR]-[COLOR white]DK[/COLOR]-[COLOR blue]SE[/COLOR]-[COLOR yellowgreen] Television [/COLOR]
+ [COLOR yellow]3 Channels[/COLOR] from [COLOR red]Norway[/COLOR]
+ [COLOR yellow]3 Channels[/COLOR] from [COLOR white]Denmark[/COLOR]
+ [COLOR yellow]3 Channels[/COLOR] from [COLOR blue]Sweden[/COLOR]
+ [COLOR yellow]4 Channels[/COLOR] from [COLOR green]Scandinavia[/COLOR]</description>
+  </extension>
+</addon>

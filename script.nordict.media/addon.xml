@@ -1,0 +1,5 @@
+<addon id="script.nordict.media" version="1.1.0" name="Nordic ThemePack" provider-name="nordict">
+<requires><import addon="xbmc.python" version="2.19.0"/></requires>
+<extension point="xbmc.python.script" library="default.py"><provides>executable</provides>
+</extension><extension point="xbmc.addon.metadata"><summary>Themes for Nordic~TV</summary>
+<description>Themes for Nordict.</description><platform>all</platform></extension></addon>
