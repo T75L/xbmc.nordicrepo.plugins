@@ -9,7 +9,8 @@
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <summary lang="en">Install add-ons from nordicrepo repository</summary>
-        <description lang="en">Add-ons for Kodi</description>        
+        <description lang="en">Add-ons for Kodi</description>
+        <hashes>false</hashes>
     </extension>
 </addon>
 
