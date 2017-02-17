@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="repository.nordict" name="NordicRepo Add-on Repository" version="1.1.0" provider-name="nordicrepo">
+    <extension point="xbmc.addon.repository" name="NordicRepo Add-on Repository">
+        <info>https://raw.githubusercontent.com/T75L/xbmc.nordicrepo.plugins/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/T75L/xbmc.nordicrepo.plugins/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/T75L/xbmc.nordicrepo.plugins/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Install add-ons from nordicrepo repository</summary>
+        <description lang="en">Add-ons for Kodi</description>        
+    </extension>
+</addon>
+
 <addon id="plugin.video.nordict" name="-[COLOR red]Nor[/COLOR][COLOR white]dic[/COLOR][COLOR blue]~TV[/COLOR]-" version="1.1.0" provider-name="[B]IPTV[/B]">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -18,4 +31,10 @@
  [COLOR yellow]4 Channels[/COLOR] from [COLOR green]Scandinavia[/COLOR]</description>
   </extension>
 </addon>
+
+<addon id="script.nordict.media" version="1.1.0" name="Nordic ThemePack" provider-name="nordict">
+<requires><import addon="xbmc.python" version="2.19.0"/></requires>
+<extension point="xbmc.python.script" library="default.py"><provides>executable</provides>
+</extension><extension point="xbmc.addon.metadata"><summary>Themes for Nordic~TV</summary>
+<description>Themes for Nordict.</description><platform>all</platform></extension></addon>
 </addons>
